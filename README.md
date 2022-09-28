@@ -8,3 +8,14 @@ Rules for BIG O:
 3. Different inputs should have different variables O(a + b) or nested arrays O(a * b)
 4. Drop non-dominant terms
 
+Causes for Time:
+- Operations (+, -, *, /)
+- Comparisons (<, >, ==)
+- Looping (for, while)
+- Outside function call (function())
+
+Causes for Space Complexity:
+- variables
+- data structures
+- function call
+- allocations
