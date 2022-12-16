@@ -9,3 +9,11 @@ function is_Blank(input) {
 
 console.log(is_Blank(''));
 console.log(is_Blank('abc'));
+
+// Write a JavaScript function to split a string and convert it into an array of words.
+
+function string_to_array(str) {
+    return str.trim().split(' ')
+}
+
+console.log(string_to_array("Robin Singh"));
