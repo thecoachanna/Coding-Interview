@@ -17,3 +17,11 @@ function string_to_array(str) {
 }
 
 console.log(string_to_array("Robin Singh"));
+
+// Write a JavaScript function to extract a specified number of characters from a string.
+
+function truncate_string(str, index) {
+    return str.slice(0, index)
+}
+
+console.log(truncate_string("Robin Singh",7));
